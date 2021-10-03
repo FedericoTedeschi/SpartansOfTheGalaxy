@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script type="text/javascript" src="Scripts/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="Scripts/Index.js"></script>
+    <script type="text/javascript" src="Scripts/timeline.js"></script>
+    <script type="text/javascript" src="Scripts/sweetalert2.all.min.js"></script>
+    <script type="module" src="/Scripts/Module.js"></script>
+    <script src="https://kit.fontawesome.com/f0e954a21c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Styles/Styles.css" type="text/css">
+    <link rel="stylesheet" href="Styles/timeline.css" type="text/css">
+    <link rel="stylesheet" href="Styles/Particles.css">
+    </link>
+    <link rel="icon" href="Risorse/spartan-helmet-logo.png">
+    </link>
+    <title>Spartans of the Galaxy</title>
+</head>
+
+<header>
+    <div class="header">
+        <img class="HeaderLogo" src="Risorse/spartan-helmet-logo.png" title="Don't touch me.">
+        <h1 class="HeaderTitle">Spartans Of The Galaxy</h1>
+        <img class="NASA" src="Risorse/nasa-logo-1.png">
+    </div>
+</header>
+
+<body>
+    <div class="StartButtonBox">
+        <button id="StartButtonId" class="StartButton">
+            <i class="fas fa-power-off fa-7x"></i>
+        </button>
+    </div>
+
+    <div id="spacer" style="display: none;"></div>
+
+    <div id="quote" class="quote">
+        <p><span style="margin-right: 10px; margin-bottom: 10px;">&#8220;</span>Do not go gentle into that good night...<span style="margin-left: 10px; margin-top: 10px;">&#8222;</span></p>
+    </div>
+
+    <div id="timeline" class="timeline" style="display: none;">
+        <div class="timeline__bar"></div>
+        <div class="timeline__elem timeline__elem--left">
+            <div class="timeline__date InfoButton">
+                <a id="ExcavatorInfo" name="modalCaller">
+                    <i class="fas fa-screwdriver fa-3x"></i>
+                </a>
+            </div>
+            <div class="timeline__event">
+                <h3 class="timeline__event-title">Excavator</h3>
+                <div class="timeline__event-descr">
+                    <p>A lunar excavator to collect regolith</p>
+                    <ul>
+                        <li>A lunar excavator would be quite different from one on Earth. Thanks to the Moon's gravity being around one-sixth of
+                        Earth's gravity, it could lift more easily heavier loads. However, it needs adequate protection from the abrasive lunar
+                        dust...</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="timeline__elem timeline__elem--right">
+            <div class="timeline__date InfoButton">
+                <a id="HaulerInfo" name="modalCaller">
+                    <i class="fas fa-trailer fa-3x"></i>
+                </a>
+            </div>
+            <div class="timeline__event">
+                <h3 class="timeline__event-title">Hauler</h3>
+                <div class="timeline__event-descr">
+                    <p>An hauler to transport mined samples</p>
+                    <ul>
+                        <li>Once the lunar regolith is gathered, it will need an hauler to be transported from the mining site to the processing
+                        site...</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="timeline__elem timeline__elem--left">
+            <div class="timeline__date InfoButton">
+                <a id="DroneInfo" name="modalCaller">
+                    <i class="fas fa-helicopter fa-3x"></i>
+                </a>
+            </div>
+            <div class="timeline__event">
+                <h3 class="timeline__event-title">Drone</h3>
+                <div class="timeline__event-descr">
+                    <p>A way of localizing and optimizing the search for specific resources</p>
+                    <ul>
+                        <li>The model is a representation of the martian helicopter Ingenuity and such technology could not fly on the Moon. However
+                        it is still representative of what a drone would do on the moon...</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <table style="margin-left: auto; margin-right: auto">
+        <td>
+            <div id="About" class="About" hidden>
+                <h1>About our project</h1>
+                <p>
+                    Hi! We are the Spartans of the Galaxy and this is our project, addressing the Virtual Planetary Exploration 2.0
+                    Challenge.
+                    In the next decade, humanity will go back to the Moon, to stay.
+                    However, sustainable missions to the Moon require the exploitation of local resources: while reusable rockets
+                    have
+                    lowered the cost of sending payload to space, extracting water and construction materials from lunar regolith
+                    will be
+                    fundamental for a quicker and cheaper development of a moonbase. Moreover, the Moon's soil is rich with rare
+                    metals
+                    useble in electronics, and with Helium-3, an isotope of helium that could fuel future nuclear fusion power
+                    plants.
+                </p>
+                <p>
+                    For these reasons we want to educate the public about some of the ways we could localize, mine and transport
+                    lunar
+                    resources.
+                </p>
+                <span>
+                    &nbsp;
+                </span>
+            </div>
+        </td>
+        <td>
+            <div id="AboutUs" class="About" hidden>
+                <h1>About us</h1>
+                    <table style="margin-left: auto; margin-right: auto;">
+                        <tr>
+                            <td id="Davide" class="InfoCard">
+                                <img src="Risorse/davide.jpg">
+                                <h3>Davide Di Santis</h3>
+                                <p>
+                                    MSc Aerospace Engineering student
+                                </p>
+                            </td>
+                            <td class="tdspace">
+
+                            </td>
+                            <td id="Mario" class="InfoCard">
+                                <img src="Risorse/mario.jpeg">
+                                <h3>Mario Mucavero</h3>
+                                <p>
+                                    Software Developer and ICT student
+                                </p>
+                            </td>
+                            <td class="tdspace">
+
+                            </td>
+                            <td id="Federico" class="InfoCard">
+                                <img src="Risorse/federico.jpg">
+                                <h3>Federico Tedeschi</h3>
+                                <p>
+                                    Software Developer and ICT student
+                                </p>
+                            </td>
+                        </tr>
+                    </table>
+                <span>
+                    &nbsp;
+                </span>
+            </div>
+        </td>
+    </table>
+    <span>
+        &nbsp;
+    </span>
+    <div id="ExcavatorModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close">&times;</span>
+                <h2>Excavator</h2>
+            </div>
+            <table style="margin-left: auto; margin-right: auto;">
+                <tr>
+                    <td>
+                        <canvas id="ExcavatorModel"></canvas>
+                    </td>
+                    <td>
+                        <p>A lunar excavator would be quite different from one on Earth. Thanks to the Moon's gravity being around one-sixth of
+                        Earth's gravity, it could lift more easily heavier loads. However, it needs adequate protection from the abrasive lunar
+                        dust.
+                        For safety reasons, it is preferred to have the excavator to be automated or teleoperated by astronauts or by Earth's
+                        ground stations. The complexity of automating such machines would surely require remote control for the first missions.
+                        NASA is currently developing a Lightweight Bulldozer Attachment for Construction and
+                        Excavation on the Lunar Surface (LANCE) blade, with the aim of building a resilient yet low weight blade.</p>
+                    </td>
+                </tr>
+            </table>
+            <div class="modal-footer">
+                <p>More info can
+                be found <a href="https://ntrs.nasa.gov/api/citations/20130012987/downloads/20130012987.pdf" target="_blank">here</a>.</p>
+            </div>
+        </div>
+    </div>
+    <div id="HaulerModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close">&times;</span>
+                <h2>Hauler</h2>
+            </div>
+            <div class="modal-body">
+                <table style="margin-left: auto; margin-right: auto;">
+                    <tr>
+                        <td>
+                            <canvas id="HaulerModel"></canvas>
+                        </td>
+                        <td>
+                            <p>Once the lunar regolith is gathered, it will need an hauler to be transported from the mining site to the processing
+                            site.
+                            NASA is currently working on a six-legged rover, called All-Terrain Hex-Limbed Extra-Terrestrial Explorer (ATHLETE).
+                            This rover is expected to be remotely operated by astronauts on the Moon or from Earth. It can carry payloads up to 350
+                            kg and is intended to be used as a delivery system for the Moonbase.
+                            While its wheels allow it to travel on stable soil, the 6 Degrees-of-Freedom limbs allow it to easily overcome terrain
+                            that is too soft, obstacles and steep terrain.</p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="modal-footer">
+                <p>More about the ATHLETE rover <a href="https://www-robotics.jpl.nasa.gov/systems/system.cfm?System=11"
+                        target="_blank">here</a>.</p>
+            </div>
+        </div>
+    </div>
+    <div id="DroneModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close">&times;</span>
+                <h2>Drone</h2>
+            </div>
+            <div class="modal-body">
+                <table style="margin-left: auto; margin-right: auto;">
+                    <tr>
+                        <td>
+                            <canvas id="DroneModel"></canvas>
+                        </td>
+                        <td>
+                            <p>The model is a representation of the martian helicopter Ingenuity and such technology could not fly on the Moon. However it
+                            is still representative of what a drone would do on the moon.</p>
+                            <p>The success of Ingenuity's mission paves the way for a whole new type of technologies for lunar exploration. The use of
+                            a flying drone, which due to the lack of atmosphere on the Moon would require a different type of propulsion than the
+                            classical blades we're used to, would open a wide range of possibilities.
+                            For example, a drone could map the surrounding areas and recognize areas of interest by localizing resources to be
+                            mined.</p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="modal-footer">
+                <p>More about model <a href="https://nasa3d.arc.nasa.gov/">here</a>.</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+<footer>
+
+</footer>
+
+</html>
