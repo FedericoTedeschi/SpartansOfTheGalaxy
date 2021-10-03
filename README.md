@@ -1,4 +1,4 @@
-# SpartansOfTheGalaxy
+# Spartans Of The Galaxy
 
 ## Attention, all proud space sailors!
 If you want to use the code it is mandatory to download and add the last stable version of [three.js](https://github.com/mrdoob/three.js/archive/master.zip)<br/> 
