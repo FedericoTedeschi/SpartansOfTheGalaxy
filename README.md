@@ -7,4 +7,6 @@ to the Scripts folder. Make sure the name of the folder is 'three.js' and if it'
 ## The Project
 Hi! We are the Spartans of the Galaxy and this is our project, addressing the Virtual Planetary Exploration 2.0 Challenge. In the next decade, humanity will go back to the Moon, to stay. However, sustainable missions to the Moon require the exploitation of local resources: while reusable rockets have lowered the cost of sending payload to space, extracting water and construction materials from lunar regolith will be fundamental for a quicker and cheaper development of a moonbase. Moreover, the Moon's soil is rich with rare metals useble in electronics, and with Helium-3, an isotope of helium that could fuel future nuclear fusion power plants.<br/>
 
-For these reasons we want to educate the public about some of the ways we could localize, mine and transport lunar resources.
+For these reasons we want to educate the public about some of the ways we could localize, mine and transport lunar resources.<br/><br/>
+
+This is where we you can stare at the beauty: [SpartansOfTheGalaxy.it](https://www.spartansofthegalaxy.it/Index.html)!
