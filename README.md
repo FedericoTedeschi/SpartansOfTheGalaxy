@@ -9,4 +9,4 @@ Hi! We are the Spartans of the Galaxy and this is our project, addressing the Vi
 
 For these reasons we want to educate the public about some of the ways we could localize, mine and transport lunar resources.<br/>
 
-This is where we you can stare at the beauty: [SpartansOfTheGalaxy.it](https://www.spartansofthegalaxy.it/Index.html)!
+This is where we you can stare at the beautifulness: [SpartansOfTheGalaxy.it](https://www.spartansofthegalaxy.it/Index.html)!
